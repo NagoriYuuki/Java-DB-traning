@@ -11,3 +11,6 @@ logging:
     com.yuuuki: debug
 server:
   port: 8888
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case:
