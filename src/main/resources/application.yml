@@ -1,0 +1,13 @@
+#配置数据源
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    #数据库的密码
+    password: 123456
+    url: mysql.jdbc://localhost:3306/mall_db
+logging:
+  level:
+    com.yuuuki: debug
+server:
+  port: 8888
